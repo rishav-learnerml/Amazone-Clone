@@ -24,7 +24,7 @@ This project is currently in development. Users can create and Sign in to thier 
 
 ## Project Screen Shot(s)
 
-![image](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing)
+![alt tag](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing)
 
 ## Installation and Setup Instructions
 
@@ -46,7 +46,7 @@ Amazon Clone is hosted on [Firebase](https://lnkd.in/gch6qbY).
 
 ## Reflection
 
-This was a 2 weeks long project built during the end of Winters in the Year 2021. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. As a Full Stack Developer, I have learnt about more concepts in React like React-Router, Context-API, Firebase Auth, Hosting, Cloud Functions and Stripe Payment Gateway. In that way this project was challenging and therefore a great learning experince.
+This was a 2 weeks long project built during the end of December 2020 and start of January 2021. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. As a Full Stack Developer, I have learnt about more concepts in React like React-Router, Context-API, Firebase Auth, Hosting, Cloud Functions and Stripe Payment Gateway. In that way this project was challenging and therefore a great learning experince.
 
 Originally I wanted to build an application that allowed users to order products from the app. I can use the learnings and steps involved in building this clone to develop similar E-Commmerce Apps for the local bussinesses or Company Requirements. I started this process by using the `create-react-app` boilerplate, then adding `react-router-dom` and `firebase-tools`.React,node etc was previouslly stup on my sytem. I set up Firebase and and Stripe for the first time to build this project, because I used to create My own Rest Api's and custom backend in my previous projects but I've to admit that firebase gave a smooth experiance!!
 
