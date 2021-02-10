@@ -4,7 +4,7 @@ An E-Commerce application used to order items of diffrent categories like electr
 
 ## Project Status
 
-Complete the Frontend with React and Backend with Firebase Cloud Functions of the following components:
+Completed the Frontend with React and Backend with Firebase Cloud Functions of the following components:
 
 - Home - Contains the list of products with basic layout of Header and Footer.
 - Login - Contains the Login page whre you can add valid email password to Create your new amazon clone account and Sign In.
@@ -16,7 +16,7 @@ Complete the Frontend with React and Backend with Firebase Cloud Functions of th
 
 #### Future Improvements:
 
-This project is currently in development. Users can create and Sign in to thier account or use as an Guest, add/remove products to/from the basket, proceed to checkout and complete and Payment and view thier order details. Functionality to host cloud functions on firebase blaze or on Heroku is in the progress.
+This project is currently in development. Users can create and Sign in to thier account or use as an Guest, add/remove products to/from the basket, proceed to checkout and complete and Payment and view thier order details.
 
 - Responsive Design for Mobile
 - Animations
@@ -24,9 +24,7 @@ This project is currently in development. Users can create and Sign in to thier 
 
 ## Project Screen Shot(s)
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![image](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing)
 
 ## Installation and Setup Instructions
 
@@ -44,14 +42,14 @@ To Visit App:
 
 `localhost:3000/` in your local environment.
 
-Amazon Clone is hosted on [Firebase](https://clone-4afa0.web.app/).
+Amazon Clone is hosted on [Firebase](https://lnkd.in/gch6qbY).
 
 ## Reflection
 
-This was a 1 week long project built during the end of Summers in Covid Year 2020. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. As I an Frontend Developer. Didn't had much experince with database and Payment Gateways. I have learnt about more concepts in the React like React-Router, Context-API, Firebase Auth, Hosting, Cloud Functions and Stripe Payment Gateway. In that way this project was challenging and therefore a great learning experince.
+This was a 2 weeks long project built during the end of Winters in the Year 2021. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. As a Full Stack Developer, I have learnt about more concepts in React like React-Router, Context-API, Firebase Auth, Hosting, Cloud Functions and Stripe Payment Gateway. In that way this project was challenging and therefore a great learning experince.
 
-Originally I wanted to build an application that allowed users to order products from the app. I can use the learnings and steps involved in building this clone to develop similar E-Commmerce Apps for the local bussinesses or Company Requirements. I started this process by using the `create-react-app` boilerplate, then adding `react-router-dom` and `firebase-tools`.React,node etc was previouslly stup on my sytem. I have stup Firebase and and Stripe for the first time to build this project.
+Originally I wanted to build an application that allowed users to order products from the app. I can use the learnings and steps involved in building this clone to develop similar E-Commmerce Apps for the local bussinesses or Company Requirements. I started this process by using the `create-react-app` boilerplate, then adding `react-router-dom` and `firebase-tools`.React,node etc was previouslly stup on my sytem. I set up Firebase and and Stripe for the first time to build this project, because I used to create My own Rest Api's and custom backend in my previous projects but I've to admit that firebase gave a smooth experiance!!
 
-One of the main challenges I ran into was payment integration, cloud functions deployment on firebase blaze plan. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
+Few of the main challenges I ran into was payment integration, cloud functions deployment on firebase blaze plan and tackling products with similar IDs. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. I used Array-indexes to tackle products with similar IDs and also resolved the issue of deployment by using firebase-tools properly.
 
-At the end of the day, the technologies implemented in this project are React, React-Router, Context-API, Firebase, Stripe and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
+At the end of the day, the technologies implemented in this project are React, React-Router, Context-API, Firebase, Stripe and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes.
