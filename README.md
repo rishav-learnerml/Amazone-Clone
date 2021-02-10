@@ -1,55 +1,70 @@
-## Amazon Clone
+# Getting Started with Create React App
 
-An E-Commerce application used to order items of diffrent categories like electronics, pantry, etc. Built with React, JavaScript, Context-Api, Router, CSS, Firebase and Stripe
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Status
+## Available Scripts
 
-Completed the Frontend with React and Backend with Firebase Cloud Functions of the following components:
+In the project directory, you can run:
 
-- Home - Contains the list of products with basic layout of Header and Footer.
-- Login - Contains the Login page whre you can add valid email password to Create your new amazon clone account and Sign In.
-- Checkout - All the products added to the basket will show here and can be removed using Remove to Basket button. After clicking Proceed to checkout you will be redirected to Payment Page.
-- Payment - This page has a static Delivery address for now. You can Review your delivery items and Stripe-Api is used for the payment method it accepst Visa Card. You can add
-  42424242...until it ends for the testing. It's a default Visa card for Stripe.
-- Orders - After the successful payment the on clicking the buy now the you will be redirected to Orders. Whre you can see the summary of your Order, Total Amout and the associated Payment Id. You can also come to this by clicking Orders in the Header.
-- Layout - Contains Header and Footer component.
+### `yarn start`
 
-#### Future Improvements:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This project is currently in development. Users can create and Sign in to thier account or use as an Guest, add/remove products to/from the basket, proceed to checkout and complete and Payment and view thier order details.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Responsive Design for Mobile
-- Animations
-- Merchant Account
+### `yarn test`
 
-## Project Screen Shot(s)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![alt tag](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing "Project-Image")
+### `yarn build`
 
-## Installation and Setup Instructions
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Installation:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`npm install` or `yarn`
+### `yarn eject`
 
-To Start Server:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-`npm start` or `yarn start`
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-To Visit App:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-`localhost:3000/` in your local environment.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Amazon Clone is hosted on [Firebase](https://lnkd.in/gch6qbY).
+## Learn More
 
-## Reflection
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-This was a 2 weeks long project built during the end of December 2020 and start of January 2021. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. As a Full Stack Developer, I have learnt about more concepts in React like React-Router, Context-API, Firebase Auth, Hosting, Cloud Functions and Stripe Payment Gateway. In that way this project was challenging and therefore a great learning experince.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Originally I wanted to build an application that allowed users to order products from the app. I can use the learnings and steps involved in building this clone to develop similar E-Commmerce Apps for the local bussinesses or Company Requirements. I started this process by using the `create-react-app` boilerplate, then adding `react-router-dom` and `firebase-tools`.React,node etc was previouslly stup on my sytem. I set up Firebase and and Stripe for the first time to build this project, because I used to create My own Rest Api's and custom backend in my previous projects but I've to admit that firebase gave a smooth experiance!!
+### Code Splitting
 
-Few of the main challenges I ran into was payment integration, cloud functions deployment on firebase blaze plan and tackling products with similar IDs. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. I used Array-indexes to tackle products with similar IDs and also resolved the issue of deployment by using firebase-tools properly.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-At the end of the day, the technologies implemented in this project are React, React-Router, Context-API, Firebase, Stripe and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

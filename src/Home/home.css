@@ -1,0 +1,45 @@
+/*Styles for home component*/
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.home_carausal {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.home__image {
+  z-index: -1;
+  margin-bottom: -300px;
+}
+@media only screen and (max-width: 1300px) {
+  .home__image {
+    z-index: -1;
+    margin-bottom: -120px;
+  }
+  .carousel .control-next.control-arrow:before {
+    margin-bottom: 100px;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1300px ) {
+.carousel .control-next.control-arrow:before {
+  margin-bottom: 270px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  margin-bottom: 270px;
+}
+}
