@@ -23,8 +23,8 @@ This project is currently in development. Users can create and Sign in to thier 
 - Merchant Account
 
 ## Project Screen Shot(s)
-![caption](https://github.com/rishav-learnerml/Amazone-Clone/blob/master/public/amazon_clone_gif.gif)
 ![image](https://github.com/rishav-learnerml/Amazone-Clone/blob/master/public/amazone_clone_img.png?v=600s=330)
+![caption](https://github.com/rishav-learnerml/Amazone-Clone/blob/master/public/amazon_clone_gif.gif)
 
 ## Installation and Setup Instructions
 
