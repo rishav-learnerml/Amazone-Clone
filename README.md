@@ -24,7 +24,7 @@ This project is currently in development. Users can create and Sign in to thier 
 
 ## Project Screen Shot(s)
 
-![alt tag](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing)
+![alt tag](https://drive.google.com/file/d/1odlDRhqldlmBKgW9ZfhrIiqs8ccQT-DE/view?usp=sharing "Project-Image")
 
 ## Installation and Setup Instructions
 
