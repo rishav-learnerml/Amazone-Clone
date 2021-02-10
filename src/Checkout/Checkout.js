@@ -27,7 +27,8 @@ function Checkout() {
           <h2>Your Amazon Basket is Empty!!</h2>
         </div>:
         basket.map(item =>(
-          <BasketItem 
+          <BasketItem
+          key={item.id}
           id={item.id}
           title={item.title}
           image={item.image}

@@ -67,9 +67,9 @@ function Footer() {
           alt=""
         />
         <span className="footer__lineMessage">
-          Amazon clone developed by &copy;{" "}
+          Amazon clone developed by
           <a href="https://github.com/rishav-learnerml" target="_blank" className="rishav">
-            Rishav Chatterjee
+          &copy;{" "}Rishav Chatterjee
           </a>
         </span>
       </div>

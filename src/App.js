@@ -8,6 +8,7 @@ import Login from "./Login/Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { useEffect } from "react";
+import Payment from "./Payment/Payment";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
@@ -20,13 +21,13 @@ function App() {
         //user logged in
         dispatch({
           type: "SET_USER",
-          user: authUser
+          user: authUser,
         });
       } else {
         //user is logged out
         dispatch({
           type: "SET_USER",
-          user: null
+          user: null,
         });
       }
     });
@@ -43,6 +44,9 @@ function App() {
             <Header />
             <Checkout />
             <Footer />
+          </Route>
+          <Route path="/payment">
+            <Payment />
           </Route>
           <Route path="/">
             <Header />
